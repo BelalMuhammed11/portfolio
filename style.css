@@ -55,6 +55,7 @@ ul a {
 
 ul a :hover {
   color: #f0ede8;
+  transition: color 0.3s ease;
 }
 
 
@@ -188,6 +189,8 @@ h1 {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .first-project p:first-of-type,
@@ -265,6 +268,8 @@ h1 {
   border-radius: 100px;
   font-weight: 700;
   margin: 0 10px;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-text a:hover {
